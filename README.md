@@ -7,11 +7,11 @@ To install, copy the entire lua code block contained in "skill_alert.txt" into y
 If your init/rc file already includes a definition of the `ready()` function, omit the `ready()` function definition from the block contained in skill_alert.txt, and instead add a call to `check_skill_alerts()` into your existing `ready()` function definition.
 
 # Usage
-To use the script a macro must be bound to the 'set_skill_alert()' function.
+To use the script a macro must be bound to the `set_skill_alert()` function.
 
-To make a macro binding the function to a key, use Ctrl-d followed by m to define a macro, then enter the key you'd like to bind to the macro, and finally enter a target name of '===set_skill_alert'.
+To make a macro binding the function to a key, use Ctrl-d followed by m to define a macro, then enter the key you'd like to bind to the macro, and finally enter a target name of `===set_skill_alert`.
 
-Upon activating the 'set_skill_alert' macro, the list of currently watched skills will be printed to the crawl message log. For example:
+Upon activating the `set_skill_alert` macro, the list of currently watched skills will be printed to the crawl message log. For example:
 
 `Skill alert currently watching: Short Blades[2.1|4], Spellcasting[2.3|3], Charms[0|3]`
 
