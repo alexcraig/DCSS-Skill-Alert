@@ -21,13 +21,13 @@ The script then prompts for a skill name to be watched / unwatched. The entered 
 
 If the entered skill name is a skill which is currently being watched, then the skill is removed from the watched list, and the list of watched skills is re-printed. If the entered skill name is not currently being watched, the script will prompt for a skill level at which an alert should be triggered.
 
-When a watched skill reaches the set trigger level, a message will be printed to the message in the following format:
+When a watched skill reaches the set trigger level, a message will be printed to the message log in the following format:
 
 `Watched skill <Skill Name> reached level <Current Skill Level>`
 
-The script will force a "more" prompt, and then open the skill training screen. The skill does not disable training of the watched skill, this is left for the player's judgement.
+The script will force a "more" prompt, and then open the skill training screen. The script does not disable training of the watched skill, this is left for the player's judgement.
 
 # Known Issues / Limitations
 
-- The list of skill alerts currently persists between characters (i.e. death does not clear the list of skill alerts)
-- The skill alert script has only been tested with the WebTiles version of DCSS.
+- The list of watched skills currently persists between characters (i.e. death does not clear the list of skill alerts)
+- The skill alert script has only been tested with the 0.18 WebTiles version of DCSS.
